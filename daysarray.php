@@ -9,7 +9,7 @@
     <h1>PHP Variables, Arrays and Operators</h1>
 
 <?php
-    $days = array (Monday, Tuesday, Wednesday, Thursday, Friday);
+    $days = array ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
     echo "<p>$days</p>"
 ?>
 </body>
