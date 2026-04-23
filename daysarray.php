@@ -9,8 +9,9 @@
     <h1>PHP Variables, Arrays and Operators</h1>
 
 <?php
-    $days = array ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
-    echo $days
+    $days = array ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+    echo "<p>They days of the week in English are:</p>";
+    echo "$days[0], $days[1], $days[2], $days[3], $days[4], $days[5], $days[6]"
 ?>
 </body>
 </html>
