@@ -10,7 +10,7 @@
 
 <?php
     $days = array ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
-    echo "<p>$days</p>"
+    echo $days
 ?>
 </body>
 </html>
